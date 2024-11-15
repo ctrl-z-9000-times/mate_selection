@@ -1,0 +1,20 @@
+[package]
+    name         = "mate_selection"
+    version      = "0.1.0"
+    edition      = "2021"
+    description  = "A collection of mate-selection strategies for evolutionary algorithms"
+    categories   = ["algorithms"]
+    keywords     = ["random", "sampling"]
+    authors      = ["David McDougall <dam1784@rit.edu>"]
+    license      = "MIT-0"
+    repository   = "https://github.com/ctrl-z-9000-times/mate_selection.git"
+
+[lib]
+    doctest = false
+    crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+    pyo3 = { version = ">= 0.22", features = ["extension-module"], optional=true }
+    rand = ">= 0.8"
+    serde = { version = "1", features = ["derive"] }
+    stochastic_universal_sampling = "1"

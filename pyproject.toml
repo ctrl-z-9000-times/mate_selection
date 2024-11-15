@@ -1,0 +1,27 @@
+[project]
+    name = "mate_selection"
+    requires-python = ">=3.8"
+    description = "A collection of mate-selection strategies for evolutionary algorithms"
+    keywords = ["algorithms", "random", "sampling"]
+    classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
+        "Natural Language :: English",
+        "Intended Audience :: Science/Research",
+        "Topic :: Scientific/Engineering",
+        "Programming Language :: Python"
+    ]
+    authors = [
+        {name = "David McDougall", email = "dam1784@rit.edu"},
+    ]
+
+[project.urls]
+    repository = "https://github.com/ctrl-z-9000-times/mate_selection.git"
+
+[build-system]
+    requires = ["maturin>=1.0,<2.0"]
+    build-backend = "maturin"
+
+[tool.maturin]
+    features = ["pyo3"]
+    profile  = "release"
