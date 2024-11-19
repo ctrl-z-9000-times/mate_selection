@@ -1,4 +1,4 @@
-//! This module is a collection of mate-selection strategies for evolutionary algorithms.
+//! A collection of mate selection methods for evolutionary algorithms
 
 use rand::Rng;
 use serde::{Deserialize, Serialize};
@@ -140,7 +140,7 @@ mod python {
     use pyo3::exceptions::PyValueError;
     use pyo3::prelude::*;
 
-    /// A collection of mate-selection strategies for evolutionary algorithms.
+    /// A collection of mate selection methods for evolutionary algorithms
     ///
     /// Mate selection algorithms randomly select pairs of individuals from a
     /// population. The sampling probability of each individuals is a function

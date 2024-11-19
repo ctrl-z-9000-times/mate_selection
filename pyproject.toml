@@ -1,7 +1,7 @@
 [project]
     name = "mate_selection"
     requires-python = ">=3.8"
-    description = "A collection of mate-selection strategies for evolutionary algorithms"
+    description = "A collection of mate selection methods for evolutionary algorithms"
     keywords = ["algorithms", "random", "sampling"]
     classifiers = [
         "Development Status :: 5 - Production/Stable",

@@ -1,8 +1,8 @@
 [package]
     name         = "mate_selection"
-    version      = "0.1.0"
+    version      = "0.1.1"
     edition      = "2021"
-    description  = "A collection of mate-selection strategies for evolutionary algorithms"
+    description  = "A collection of mate selection methods for evolutionary algorithms"
     categories   = ["algorithms"]
     keywords     = ["random", "sampling"]
     authors      = ["David McDougall <dam1784@rit.edu>"]
