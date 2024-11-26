@@ -25,3 +25,4 @@
 [tool.maturin]
     features = ["pyo3"]
     profile  = "release"
+    exclude = [".gitignore", "Cargo.lock"]
